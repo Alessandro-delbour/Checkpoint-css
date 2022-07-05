@@ -1,0 +1,151 @@
+body
+{
+	background-color: skyblue;
+	color: greenyellow;
+	font-family: comic sans ms;
+	text-align: center;
+	animation-name: fondu-in-up;
+	animation-timing-function: ease;
+	animation-duration: 5s;
+	animation-direction: alternate;
+}
+
+nav
+{
+	background-color: white;
+	width: 10%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	box-shadow: 10px 5px 5px 5px white;
+	font-family: comic sans ms;
+}
+
+.lateral_bar
+{
+	background-color: white;
+	width: 10%;
+	position: fixed;
+	top: 100px;
+	left: 0px;
+	height: 600px;
+	box-shadow: 10px 5px 5px 5px white;
+}
+
+
+#about
+{
+	background-color: gray;
+	margin-left: 400px;
+	margin-right: 400px;
+	border-radius: 30px/30px;
+}
+
+#about:hover
+{
+	cursor: pointer;
+	background-color: darkgray;
+}
+
+#work
+{
+	background-color: gray;
+	margin-left: 500px;
+	margin-right: 500px;
+	border-radius: 30px/30px;
+}
+
+#work:hover
+{
+	cursor: pointer;
+	background-color: darkgray;
+}
+
+#contact
+{
+	background-color: gray;
+	margin-left: 500px;
+	margin-right: 500px;
+	border-radius: 30px/30px;
+}
+
+#contact:hover
+{
+	cursor: pointer;
+	background-color: darkgray;
+}
+
+a:visited
+{
+	color: red;
+}
+
+.img, iframe, audio, .img2
+{
+	border: 8px groove forestgreen;
+}
+
+main, footer, header
+{
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+audio
+{
+	border-radius: 50px / 30px;
+}
+
+ul
+{
+	display: inline;
+}
+
+@keyframes fondu-in-up 
+{
+	0%    { opacity:0; }
+	25%   { opacity:0; }
+	75%   { opacity:1; }
+	100%  { opacity:1; }
+}
+
+@keyframes fondu-in-out 
+{
+	0%    { opacity:1; }
+	25%   { opacity:1; }
+	75%   { opacity:0; }
+	100%  { opacity:0; }
+}
+
+.img
+{
+	margin-right: 30px;
+	animation-name: fondu-in-out;
+	animation-timing-function: ease;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.img2
+{
+	margin-left: 30px;
+	animation-name: fondu-in-out;
+	animation-timing-function: ease;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.button
+{
+	font-size: 30px;
+	border-radius: 30px / 30px;
+	color: red;
+	background-color: lightpink;
+	text-shadow: #000000 2px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+
+}
+
+
+
